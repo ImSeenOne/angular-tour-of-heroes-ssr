@@ -1,6 +1,6 @@
 # AngularTourOfHeros
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4 with the server-side-rendering functionality enable. Just run `npm install` and then `npm run dev:ssr`
 
 ## Development server
 
