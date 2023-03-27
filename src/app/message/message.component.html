@@ -1,0 +1,6 @@
+<div *ngFor='let message of messageService.messages'>
+  <div *ngIf="message.visible" class="alert alert-{{message.type}}" role="alert">
+    <button type="button" (click)="close(message)" class="close-alert" >&times;</button>
+    {{message.text}}
+  </div>
+</div>

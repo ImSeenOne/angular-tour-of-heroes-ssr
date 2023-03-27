@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+$color_1: #369;
+$color_2: #444;
+$color_3: #333;
+$color_4: black;
+$color_5: white;
+$color_6: #aaa;
+$font-family_1: Arial, Helvetica, sans-serif;
+$font-family_2: Cambria, Georgia, serif;
+$background-color_1: #eee;
+$background-color_2: black;
+
+/* Application-wide Styles */
+h1 {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-size: 250%;
+}
+h2 {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-weight: lighter;
+}
+h3 {
+	color: $color_2;
+	font-family: $font-family_1;
+	font-weight: lighter;
+}
+body {
+	margin: 2em;
+	color: $color_3;
+	font-family: $font-family_2;
+}
+input[type="text"] {
+	color: $color_3;
+	font-family: $font-family_2;
+}
+button {
+	color: $color_3;
+	font-family: $font-family_2;
+	background-color: $background-color_1;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 1.2rem;
+	padding: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	&:hover {
+		background-color: $background-color_2;
+		color: $color_5;
+	}
+	&:disabled {
+		background-color: $background-color_1;
+		color: $color_6;
+		cursor: auto;
+	}
+
+}
+
+/* everywhere else */
+* {
+	font-family: $font-family_1;
+}
